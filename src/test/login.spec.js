@@ -1,7 +1,7 @@
 describe('Perform Login Operations', async () => {
 
   beforeEach('Open Page', () => {
-    browser.url('https://practicetestautomation.com/practice-test-login/');
+    browser.url('http://practicetestautomation.com/practice-test-login/');
   });
   
   it('Login Successfully', async () => {

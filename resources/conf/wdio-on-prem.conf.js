@@ -2,7 +2,7 @@ var defaults = require("./wdio.conf.js");
 var _ = require("lodash");
 
 var overrides = {
-  testData: [],
+  logLevel: "debug",
   specs: [
     '../../src/test/login.spec.js'
   ]

@@ -7,7 +7,8 @@
     "bstack-parallel-browsers": "npx wdio resources/conf/wdio-bstack-parallel-browsers.conf.js",
     "bstack-parallel": "npx wdio resources/conf/wdio-bstack-parallel.conf.js",
     "bstack-single": "npx wdio resources/conf/wdio-bstack-single.conf.js",
-    "on-prem": "npx wdio resources/conf/wdio-on-prem.conf.js"
+    "on-prem": "npx wdio resources/conf/wdio-on-prem.conf.js",
+    "on-prem-parallel": "npx wdio resources/conf/wdio-on-prem-parallel.conf.js"
   },
   "keywords": [],
   "author": "",
@@ -25,9 +26,12 @@
     "browserstack-local": "1.5.2",
     "chai": "4.3.7",
     "chromedriver": "^113.0.0",
+    "geckodriver": "^4.0.4",
     "lodash": "4.17.21",
+    "safaridriver": "^0.0.5",
     "wdio-chromedriver-service": "^8.1.1",
     "wdio-docker-service": "^3.2.1",
+    "wdio-geckodriver-service": "^5.0.1",
     "webdriverio": "8.10.6"
   }
 }

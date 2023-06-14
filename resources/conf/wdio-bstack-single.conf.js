@@ -2,8 +2,8 @@ var defaults = require("./wdio.conf.js");
 var _ = require("lodash");
 
 var overrides = {
-  user: process.env.BROWSERSTACK_USERNAME || 'BROWSERSTACK_USERNAME',
-  key: process.env.BROWSERSTACK_ACCESS_KEY || 'BROWSERSTACK_ACCESS_KEY',
+  user: process.env.BROWSERSTACK_USERNAME || 'garybehan_phbeWu',
+  key: process.env.BROWSERSTACK_ACCESS_KEY || 'GkgLZSk6qKLNrBjcZChb',
   specs: [
     '../../src/test/login.spec.js'
   ],
